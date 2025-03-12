@@ -3,7 +3,7 @@ import { CardServiceContainer } from "./Card";
 
 export const ServiceSection = () => {
   return (
-    <section className="flex flex-col gap-[68px] justify-center mx-auto w-[1021px] pt-[72px] pb-3">
+    <section className="flex flex-col gap-[68px] justify-center mx-auto w-[1021px] pt-[72px] pb-3 mb-[68px]">
       <h2 className="text-[56px] font-bold leading-[62px]">
         We&apos;re here to assist you in creating, managing
       </h2>

@@ -24,11 +24,14 @@
     @apply bg-background text-foreground font-sans max-w-desktop;
     font-family: "Space Grotesk", sans-serif;
   }
+  h2 {
+    @apply leading-[62px] text-[56px] tracking-tight font-bold;
+  }
   h3 {
     @apply leading-10 text-3xl font-bold tracking-[-1px];
   }
-  h5 {
-    @apply leading-[26px] text-lg font-medium text-primary;
+  span.section {
+    @apply leading-[26px] text-lg font-medium text-primary uppercase;
   }
   p.section {
     @apply leading-7 text-xl font-normal tracking-[0.6px] text-foreground/60;
@@ -50,6 +53,12 @@
   }
   .btn.lg {
     @apply py-[18px] px-7;
+  }
+  .btn.md {
+    @apply py-[18px] px-[22px];
+  }
+  .btn.outline {
+    @apply bg-transparent w-fit border-2 border-primary text-primary font-medium text-[16px] leading-6;
   }
   .btn-icon {
     @apply flex items-center justify-center h-[60px] w-[60px] bg-foreground rounded-full;
