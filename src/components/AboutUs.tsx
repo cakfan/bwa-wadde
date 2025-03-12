@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 export const AboutUs = () => {
   return (
-    <section className="flex justify-start gap-[68px] pl-[220px] py-12 mb-[50px]">
+    <section className="flex justify-start items-center gap-[68px] pl-[220px] py-12 mb-[50px]">
       <div className="flex flex-col justify-start w-[460px]">
         <span className="section mb-3">About Us</span>
         <h2>Embark on Your Digital </h2>
