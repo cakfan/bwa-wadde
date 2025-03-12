@@ -22,7 +22,7 @@ const companiesList = [
 
 export const Companies = () => {
   return (
-    <div className="flex flex-col gap-[18px] items-center mt-[59px] pb-[122px]">
+    <section className="flex flex-col gap-[18px] items-center mt-[59px] pb-[122px]">
       <p className="w-[682px] leading-[52px] font-bold text-center text-4xl">
         Join over 55,000 businesses that have achieved their goals.
       </p>
@@ -33,6 +33,6 @@ export const Companies = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };

@@ -5,6 +5,7 @@
   --background: #1c1c1c;
   --foreground: #ffffff;
   --primary: #f15757;
+  --secondary: #f88e12;
   --max-width: 1440px;
   --navbar-height: 92px;
 }
@@ -13,6 +14,7 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
   --spacing-desktop: var(--max-width);
   --spacing-navbar: var(--navbar-height);
 }
@@ -21,6 +23,15 @@
   body {
     @apply bg-background text-foreground font-sans max-w-desktop;
     font-family: "Space Grotesk", sans-serif;
+  }
+  h3 {
+    @apply leading-10 text-3xl font-bold tracking-[-1px];
+  }
+  h5 {
+    @apply leading-[26px] text-lg font-medium text-primary;
+  }
+  p.section {
+    @apply leading-7 text-xl font-normal tracking-[0.6px] text-foreground/60;
   }
 }
 
