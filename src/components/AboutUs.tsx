@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 export const AboutUs = () => {
   return (
-    <section className="flex items-center gap-[68px] pl-[220px] py-12 mb-[50px]">
+    <section className="flex justify-start gap-[68px] pl-[220px] py-12 mb-[50px]">
       <div className="flex flex-col justify-start w-[460px]">
         <span className="section mb-3">About Us</span>
         <h2>Embark on Your Digital </h2>
@@ -15,12 +15,13 @@ export const AboutUs = () => {
         </button>
       </div>
 
-      <div className="flex items-center justify-center w-[472px] h-[494px]">
+      <div className="flex items-center justify-center">
         <img
           src={`${
             process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
           }assets/card-about.png`}
           alt="image"
+          className="h-[494px]"
         />
       </div>
     </section>
