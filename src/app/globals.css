@@ -90,4 +90,19 @@
   .team-people.active {
     @apply bg-foreground/10;
   }
+  .statistics-container {
+    @apply flex w-full items-center gap-[63px];
+  }
+  .statistics {
+    @apply flex flex-col gap-2 w-auto;
+  }
+  .statistics .count {
+    @apply text-7xl font-bold leading-[88px] line-clamp-1 tracking-tight text-[#1560F2];
+  }
+  .statistics .description {
+    @apply text-foreground/60 line-clamp-1 leading-[26px] text-lg;
+  }
+  .statistics img {
+    @apply w-8 h-8;
+  }
 }
