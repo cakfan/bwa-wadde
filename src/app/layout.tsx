@@ -19,9 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased mx-auto max-w-[1440px] w-full`}>
-        {children}
-      </body>
+      <body className={`antialiased mx-auto w-[1440px]`}>{children}</body>
     </html>
   );
 }
