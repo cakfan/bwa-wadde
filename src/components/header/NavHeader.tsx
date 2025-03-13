@@ -7,7 +7,7 @@ import Link from "next/link";
 const navItems = [
   {
     href: "#",
-    title: "All Paged",
+    title: "All Pages",
     sub: true,
   },
   {
