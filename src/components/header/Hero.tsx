@@ -44,38 +44,38 @@ export const Hero = () => {
         <Link href="#" className="btn primary lg">
           Get Started Now
         </Link>
-        <div className="relative flex">
-          <img
-            src={`${
-              process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
-            }assets/circle-person-1.png`}
-            alt="person"
-            className="circle-person"
-          />
-          <img
-            src={`${
-              process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
-            }assets/circle-person-2.png`}
-            alt="person"
-            className="circle-person -ml-4"
-          />
-          <button
-            type="button"
-            className="btn-icon -ml-4 border border-foreground/40"
-          >
+        <div className="flex gap-6 items-center">
+          <div className="relative flex">
             <img
               src={`${
                 process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
-              }icons/plus.svg`}
+              }assets/circle-person-1.png`}
               alt="person"
               className="circle-person"
             />
-          </button>
-        </div>
-        <div className="flex gap-6 items-center">
+            <img
+              src={`${
+                process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
+              }assets/circle-person-2.png`}
+              alt="person"
+              className="circle-person -ml-4"
+            />
+            <button
+              type="button"
+              className="btn-icon -ml-4 border border-foreground/40"
+            >
+              <img
+                src={`${
+                  process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
+                }icons/plus.svg`}
+                alt="person"
+                className="circle-person"
+              />
+            </button>
+          </div>
           <div className="flex flex-col gap-0.5">
             <p className="leading-[52px] font-bold text-4xl">3.2m</p>
-            <p className="leading-[26px] text-[18px] text-foreground/60 font-normal">
+            <p className="leading-[26px] text-[18px] text-foreground/60 opacity-60 font-normal">
               Success clients
             </p>
           </div>
