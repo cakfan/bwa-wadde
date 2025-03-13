@@ -56,6 +56,9 @@
   .btn.md {
     @apply py-[18px] px-[22px];
   }
+  .btn.sm {
+    @apply py-3 px-7 text-[16px] leading-6;
+  }
   .btn.outline {
     @apply bg-transparent w-fit border-2 border-primary text-primary font-medium text-[16px] leading-6;
   }

@@ -1,5 +1,6 @@
 import { AboutUs } from "@/components/AboutUs";
 import { Companies } from "@/components/Companies";
+import { Contact } from "@/components/Contact";
 import { DownloadApp } from "@/components/DownloadApp";
 import { Header } from "@/components/header";
 import { OurApp } from "@/components/OurApp";
@@ -14,6 +15,7 @@ export default function Home() {
       <AboutUs />
       <OurApp />
       <DownloadApp />
+      <Contact />
     </>
   );
 }
