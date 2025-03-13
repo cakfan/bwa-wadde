@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const Team = () => {
   return (
-    <div className="flex w-full overflow-hidden pt-16 mt-[1px]">
+    <div className="flex w-full overflow-hidden pt-16 mt-[1px] pr-[127px]">
       <div className="team-container">
         <Link href="#" className="team-people active">
           <img
@@ -43,8 +43,8 @@ export const Team = () => {
           </div>
         </Link>
       </div>
-      <div className="relative w-[705px] ml-[76px]">
-        <p className="text-4xl font-bold leading-[52px] tracking-[-1px]">
+      <div className="relative ml-[76px]">
+        <p className="text-[36px] w-[705px] font-bold leading-[52px] tracking-[-1px]">
           Initially doubtful, the outcome surpassed all my anticipations. The
           powerful analytics and reporting features offered crucial perspectives
           on our business metrics,{" "}

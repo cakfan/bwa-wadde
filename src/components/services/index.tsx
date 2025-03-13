@@ -3,14 +3,14 @@ import { CardServiceContainer } from "./Card";
 
 export const ServiceSection = () => {
   return (
-    <section className="flex flex-col gap-[68px] justify-center mx-auto w-[1021px] pt-[72px] pb-3 mb-[68px]">
+    <section className="flex flex-col gap-[68px] justify-center px-[209px] pt-[72px] pb-3 mb-[68px]">
       <h2 className="text-[56px] font-bold leading-[62px]">
         We&apos;re here to assist you in creating, managing
       </h2>
-      <div className="flex flex-col gap-[34px]">
-        <div className="flex gap-[34px]">
+      <div className="flex w-[1021px] flex-col gap-[34px]">
+        <div className="flex w-full gap-[34px]">
           <CardServiceContainer>
-            <div className="flex justify-around items-center pb-[42px] border-b-2 border-dotted border-foreground/10">
+            <div className="flex w-[344px] justify-around items-center pb-[42px] border-b-2 border-dotted border-foreground/10">
               <h3>Invesment Fund</h3>
               <div className="ml-16 rounded-full bg-secondary p-3">
                 <img
@@ -36,7 +36,7 @@ export const ServiceSection = () => {
               />
             </div>
           </CardServiceContainer>
-          <CardServiceContainer className="flex-1">
+          <CardServiceContainer className="w-[571px]">
             <div className="flex justify-between items-center w-full pb-[42px] border-b-2 border-dotted border-foreground/10">
               <h3>Retirement Fund</h3>
               <div className="ml-16 rounded-full bg-secondary p-3">
@@ -77,7 +77,7 @@ export const ServiceSection = () => {
             </div>
           </CardServiceContainer>
         </div>
-        <CardServiceContainer className="flex-row px-[46px] pb-8">
+        <CardServiceContainer className="flex-row w-full px-[46px] pb-8">
           <div className="flex flex-col w-[408px] h-[374px]">
             <div className="rounded-full w-fit bg-secondary p-3 mb-10">
               <img
@@ -98,7 +98,7 @@ export const ServiceSection = () => {
             </p>
           </div>
           <div className="flex flex-1 items-end justify-end">
-            <div className="rounded-t-xl w-[462px] h-[278px]">
+            <div className="rounded-xl w-[462px] h-[278px]">
               <img
                 src={`${
                   process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"

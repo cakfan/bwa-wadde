@@ -2,7 +2,7 @@
 
 export const DownloadApp = () => {
   return (
-    <section className="flex justify-center gap-16 pl-[220px] mt-[54px] pt-[95px]">
+    <section className="flex justify-center gap-16 bg-foreground/5 pl-[220px] mt-[54px] pt-[95px]">
       <div className="mt-20 pt-0.5 h-[494px] w-[472px]">
         <img
           src={`${
