@@ -1,8 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 
+import Link from "next/link";
+
 export const Logo = () => {
   return (
-    <div className="flex items-center">
+    <Link href="#" className="flex items-center">
       <img
         src={`${
           process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
@@ -10,6 +12,6 @@ export const Logo = () => {
         alt="Logo"
         className="logo"
       />
-    </div>
+    </Link>
   );
 };

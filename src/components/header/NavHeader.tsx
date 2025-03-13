@@ -26,18 +26,20 @@ const navItems = [
 
 const NavItem = ({ href, title, sub }: (typeof navItems)[0]) => {
   return (
-    <Link href={href} className="header-link">
-      <span className="">{title}</span>
-      {sub && (
-        <img
-          src={`${
-            process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
-          }icons/arrow-bottom.svg`}
-          alt="more"
-          className="h-5 w-5"
-        />
-      )}
-    </Link>
+    <li>
+      <Link href={href} className="header-link">
+        <span className="">{title}</span>
+        {sub && (
+          <img
+            src={`${
+              process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
+            }icons/arrow-bottom.svg`}
+            alt="more"
+            className="h-5 w-5"
+          />
+        )}
+      </Link>
+    </li>
   );
 };
 
@@ -45,11 +47,11 @@ export const NavHeader = () => {
   return (
     <nav className="h-navbar px-8 z-50 flex items-center justify-between">
       <Logo />
-      <div className="flex gap-10">
+      <ul className="flex gap-10">
         {navItems.map((item, index) => (
           <NavItem key={index} {...item} />
         ))}
-      </div>
+      </ul>
       <ActionHeader />
     </nav>
   );

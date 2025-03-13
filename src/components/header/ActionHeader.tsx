@@ -6,9 +6,9 @@ export const ActionHeader = () => {
       <Link href="#" className="header-link">
         Sign In
       </Link>
-      <button type="button" className="btn primary lg">
+      <Link href="#" className="btn primary lg">
         Get This Template
-      </button>
+      </Link>
     </div>
   );
 };

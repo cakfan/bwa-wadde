@@ -1,11 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
+import Link from "next/link";
 
 export const Hero = () => {
   return (
     <div className="flex flex-col gap-3.5">
       <div className="mt-3.5 ml-[100px] w-[851px] h-[306px]">
-        <div className="relative flex flex-wrap justify-center text-foreground items-center text-7xl font-bold leading-[88px] text-center">
+        <h1 className="relative flex flex-wrap justify-center text-foreground items-center text-7xl font-bold leading-[88px] text-center">
           <span>Intelligent</span>
           <div className="relative w-[168.77px] h-[186.71px]">
             <Image
@@ -31,7 +32,7 @@ export const Hero = () => {
               objectFit="contain"
             />
           </div>
-        </div>
+        </h1>
       </div>
 
       <p className="w-[656px] leading-10 tracking-wider text-2xl ml-[151px] font-normal text-foreground/60">
@@ -40,9 +41,9 @@ export const Hero = () => {
       </p>
 
       <div className="flex gap-10 items-center mt-20 ml-[146px]">
-        <button type="button" className="btn primary lg">
+        <Link href="#" className="btn primary lg">
           Get Started Now
-        </button>
+        </Link>
         <div className="relative flex">
           <img
             src={`${

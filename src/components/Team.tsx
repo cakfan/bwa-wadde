@@ -1,10 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 
+import Link from "next/link";
+
 export const Team = () => {
   return (
-    <div className="flex overflow-hidden pt-[61px]">
+    <div className="flex w-full overflow-hidden pt-16 mt-[1px]">
       <div className="team-container">
-        <div className="team-people active">
+        <Link href="#" className="team-people active">
           <img
             src={`${
               process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
@@ -15,8 +17,8 @@ export const Team = () => {
             <h6>Catherine Bennett</h6>
             <p>Founder, Creative</p>
           </div>
-        </div>
-        <div className="team-people">
+        </Link>
+        <Link href="#" className="team-people">
           <img
             src={`${
               process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
@@ -27,8 +29,8 @@ export const Team = () => {
             <h6>Tony Danza</h6>
             <p>Designer, Creative</p>
           </div>
-        </div>
-        <div className="team-people">
+        </Link>
+        <Link href="#" className="team-people">
           <img
             src={`${
               process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
@@ -39,7 +41,7 @@ export const Team = () => {
             <h6>Mike Torello</h6>
             <p>AIGC, Creative</p>
           </div>
-        </div>
+        </Link>
       </div>
       <div className="relative w-[705px] ml-[76px]">
         <p className="text-4xl font-bold leading-[52px] tracking-[-1px]">

@@ -1,5 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 
+import Link from "next/link";
+
 export const OurApp = () => {
   return (
     <section className="relative flex pl-[220px] py-12">
@@ -55,9 +57,9 @@ export const OurApp = () => {
             </p>
           </div>
         </div>
-        <button type="button" className="btn primary md font-normal">
+        <Link href="#" className="btn primary md font-normal">
           More About Us
-        </button>
+        </Link>
       </div>
     </section>
   );
