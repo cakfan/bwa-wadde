@@ -1,12 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 
-import Link from "next/link";
-
 export const Team = () => {
   return (
     <div className="flex w-full overflow-hidden pt-16 mt-[1px] pr-[127px]">
       <div className="team-container">
-        <Link href="#" className="team-people active">
+        <button type="button" className="team-people">
           <img
             src={`${
               process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
@@ -17,8 +15,8 @@ export const Team = () => {
             <h6>Catherine Bennett</h6>
             <p>Founder, Creative</p>
           </div>
-        </Link>
-        <Link href="#" className="team-people">
+        </button>
+        <button type="button" className="team-people">
           <img
             src={`${
               process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
@@ -29,8 +27,8 @@ export const Team = () => {
             <h6>Tony Danza</h6>
             <p>Designer, Creative</p>
           </div>
-        </Link>
-        <Link href="#" className="team-people">
+        </button>
+        <button type="button" className="team-people">
           <img
             src={`${
               process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
@@ -41,7 +39,7 @@ export const Team = () => {
             <h6>Mike Torello</h6>
             <p>AIGC, Creative</p>
           </div>
-        </Link>
+        </button>
       </div>
       <div className="relative ml-[76px]">
         <p className="text-[36px] w-[705px] font-bold leading-[52px] tracking-[-1px]">

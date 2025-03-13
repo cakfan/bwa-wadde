@@ -2,22 +2,22 @@
 const companiesList = [
   `${
     process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
-  }assets/logo1.png`,
+  }icons/logo1.svg`,
   `${
     process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
-  }assets/logo2.png`,
+  }icons/logo2.svg`,
   `${
     process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
-  }assets/logo3.png`,
+  }icons/logo3.svg`,
   `${
     process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
-  }assets/logo4.png`,
+  }icons/logo4.svg`,
   `${
     process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
-  }assets/logo5.png`,
+  }icons/logo5.svg`,
   `${
     process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
-  }assets/logo6.png`,
+  }icons/logo6.svg`,
 ];
 
 export const Companies = () => {
