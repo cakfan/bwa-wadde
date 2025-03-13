@@ -42,7 +42,7 @@
     @apply flex items-center gap-2.5 leading-[26px] text-[18px] font-medium;
   }
   .logo {
-    @apply h-[35px];
+    @apply w-[144px];
   }
   .btn {
     @apply leading-6 w-fit font-medium text-[16px];

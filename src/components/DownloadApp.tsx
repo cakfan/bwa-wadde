@@ -1,5 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 
+import Link from "next/link";
+
 export const DownloadApp = () => {
   return (
     <section className="flex justify-center gap-16 bg-foreground/5 pl-[220px] mt-[54px] pt-[95px]">
@@ -56,20 +58,24 @@ export const DownloadApp = () => {
           </div>
         </div>
         <div className="flex mt-0.5 gap-5">
-          <img
-            src={`${
-              process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
-            }assets/appstore.png`}
-            alt="appstore"
-            className="h-[54px] w-fit"
-          />
-          <img
-            src={`${
-              process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
-            }assets/playstore.png`}
-            alt="playstore"
-            className="h-[54px] w-fit"
-          />
+          <Link href="#">
+            <img
+              src={`${
+                process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
+              }assets/appstore.png`}
+              alt="appstore"
+              className="h-[54px] w-fit"
+            />
+          </Link>
+          <Link href="#">
+            <img
+              src={`${
+                process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
+              }assets/playstore.png`}
+              alt="playstore"
+              className="h-[54px] w-fit"
+            />
+          </Link>
         </div>
       </div>
     </section>

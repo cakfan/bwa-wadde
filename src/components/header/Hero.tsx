@@ -59,7 +59,10 @@ export const Hero = () => {
             alt="person"
             className="circle-person -ml-4"
           />
-          <button type="button" className="btn-icon -ml-4">
+          <button
+            type="button"
+            className="btn-icon -ml-4 border border-foreground/40"
+          >
             <img
               src={`${
                 process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"

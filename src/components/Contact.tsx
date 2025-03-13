@@ -1,6 +1,6 @@
 export const Contact = () => {
   return (
-    <section className="mt-14 flex flex-col justify-center pt-[39px] pb-[120px]">
+    <section className="mt-14 flex flex-col justify-center border-b border-foreground/20 pt-[39px] pb-[120px]">
       <div className="flex flex-col justify-center gap-6">
         <h2 className="text-center line-clamp-1">
           Accelerate Your Business Growth
