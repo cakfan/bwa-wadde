@@ -46,7 +46,7 @@
     @apply h-[35px];
   }
   .btn {
-    @apply leading-6 font-medium text-[16px];
+    @apply leading-6 w-fit font-medium text-[16px];
   }
   .btn.primary {
     @apply bg-primary rounded-full;
