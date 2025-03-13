@@ -16,7 +16,7 @@ export const DownloadApp = () => {
       </div>
       <div className="flex flex-col flex-1 ml-1 gap-8 pb-12">
         <div className="flex flex-col gap-8 w-[528px]">
-          <h2 className="line-clamp-2">Download Our Mobile App</h2>
+          <h2 className="line-clamp-2 capitalize">Download Our Mobile App</h2>
           <p className="section leading-10 text-2xl w-[460px]">
             X provides you with the essential toolkit to develop a genuinely
             polished website

@@ -16,7 +16,9 @@ export const OurApp = () => {
       </div>
       <div className="flex flex-col gap-8">
         <div className="flex flex-col w-[514px]">
-          <h2>Pave your path to triumph with XB innovation.</h2>
+          <h2 className="capitalize">
+            Pave your path to triumph with XB innovation.
+          </h2>
           <p className="section mt-8 w-[460px] leading-10 text-2xl">
             X equips you with the essential tools to craft a genuinely
             professional SaaS website.

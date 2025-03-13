@@ -9,7 +9,7 @@ export const AboutUs = () => {
       <div className="flex w-full gap-16 justify-start items-center">
         <div className="flex flex-col justify-start w-[460px]">
           <span className="section mb-3">About Us</span>
-          <h2>Embark on Your Digital </h2>
+          <h2 className="capitalize">Embark on Your Digital </h2>
           <p className="section mt-9 text-2xl leading-10 mb-[52px]">
             FramerBite offers the key components to build a professional-grade
             website for your SaaS, a fact well-known to readers familiar with
