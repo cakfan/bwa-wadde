@@ -1,26 +1,26 @@
 /* eslint-disable @next/next/no-img-element */
 
-export const OurApp = () => {
+export const DownloadApp = () => {
   return (
-    <section className="relative flex pl-[220px] py-12">
-      <div className="relative mt-[31px] mr-[68px]">
+    <section className="flex justify-center gap-16 pl-[220px] mt-[54px] pt-[95px]">
+      <div className="mt-20 pt-0.5 h-[494px] w-[472px]">
         <img
           src={`${
             process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
-          }assets/app-card.png`}
-          alt="image card"
-          className="w-fit h-[544px]"
+          }assets/app-preview.png`}
+          alt="app preview"
+          className="h-full w-full"
         />
       </div>
-      <div className="flex flex-col gap-8">
-        <div className="flex flex-col w-[514px]">
-          <h2>Pave your path to triumph with XB innovation.</h2>
-          <p className="section mt-8 w-[460px] leading-10 text-2xl">
-            X equips you with the essential tools to craft a genuinely
-            professional SaaS website.
+      <div className="flex flex-col flex-1 ml-1 gap-8 pb-12">
+        <div className="flex flex-col gap-8 w-[528px]">
+          <h2 className="line-clamp-2">Download Our Mobile App</h2>
+          <p className="section leading-10 text-2xl w-[460px]">
+            X provides you with the essential toolkit to develop a genuinely
+            polished website
           </p>
         </div>
-        <div className="mt-16 flex flex-col gap-[18px] mb-0.5">
+        <div className="flex flex-col gap-[18px]">
           <div className="flex items-center gap-3.5">
             <img
               src={`${
@@ -51,13 +51,26 @@ export const OurApp = () => {
               alt="icon"
             />
             <p className="section leading-8 text-xl text-foreground">
-              Secure Transaction Platform
+              WeChat & live chat
             </p>
           </div>
         </div>
-        <button type="button" className="btn primary md font-normal">
-          More About Us
-        </button>
+        <div className="flex mt-0.5 gap-5">
+          <img
+            src={`${
+              process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
+            }assets/appstore.png`}
+            alt="appstore"
+            className="h-[54px] w-fit"
+          />
+          <img
+            src={`${
+              process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
+            }assets/playstore.png`}
+            alt="playstore"
+            className="h-[54px] w-fit"
+          />
+        </div>
       </div>
     </section>
   );
