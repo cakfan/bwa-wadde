@@ -25,20 +25,32 @@ const navItems = [
 ];
 
 const NavItem = ({ href, title, sub }: (typeof navItems)[0]) => {
+  const Content = (
+    <>
+      <span>{title}</span>
+      {sub && (
+        <img
+          src={`${
+            process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
+          }icons/arrow-bottom.svg`}
+          alt="more"
+          className="h-5 w-5"
+        />
+      )}
+    </>
+  );
+
   return (
     <li>
-      <Link href={href} className="header-link">
-        <span className="">{title}</span>
-        {sub && (
-          <img
-            src={`${
-              process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
-            }icons/arrow-bottom.svg`}
-            alt="more"
-            className="h-5 w-5"
-          />
-        )}
-      </Link>
+      {sub ? (
+        <button type="button" className="header-link">
+          {Content}
+        </button>
+      ) : (
+        <Link href={href} className="header-link">
+          {Content}
+        </Link>
+      )}
     </li>
   );
 };
