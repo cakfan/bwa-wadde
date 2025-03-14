@@ -66,7 +66,7 @@ export const Footer = () => {
       <div className="flex gap-[52px]">
         <div className="flex flex-col gap-[26px] w-[352px]">
           <Logo />
-          <p className="text-lg leading-[26px] tracking-normal w-full font-light text-foreground/60">
+          <p className="text-lg leading-[26px] tracking-normal w-full font-normal text-foreground/60">
             XB gives you the blocks <br /> needed to create a truly professional
             website for your SaaS.
           </p>
@@ -122,7 +122,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-lg leading-[26px] font-light text-foreground/60">
+      <p className="text-lg leading-[26px] font-normal text-foreground/60">
         Copyright &copy; 2023 All Rights Reserved by XB
       </p>
     </footer>
