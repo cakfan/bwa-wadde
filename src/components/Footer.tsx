@@ -73,11 +73,11 @@ export const Footer = () => {
         </div>
         <div className="flex gap-[46px]">
           <div className="flex flex-col gap-5 text-lg font-medium leading-[26px]">
-            <h4 className="text-foreground/80">Solutions</h4>
+            <h4 className="text-foreground/80 line-clamp-1">Solutions</h4>
             <ul className="space-y-5">
               {footerMenu.solutitons.map(({ href, title }, index) => (
                 <li key={index}>
-                  <Link href={href} className="text-foreground/60">
+                  <Link href={href} className="line-clamp-1 text-foreground/60">
                     {title}
                   </Link>
                 </li>
@@ -85,11 +85,11 @@ export const Footer = () => {
             </ul>
           </div>
           <div className="flex flex-col gap-5 text-lg font-medium leading-[26px]">
-            <h4 className="text-foreground/80">Company</h4>
+            <h4 className="text-foreground/80 line-clamp-1">Company</h4>
             <ul className="space-y-5">
               {footerMenu.company.map(({ href, title }, index) => (
                 <li key={index}>
-                  <Link href={href} className="text-foreground/60">
+                  <Link href={href} className="line-clamp-1 text-foreground/60">
                     {title}
                   </Link>
                 </li>
@@ -97,11 +97,11 @@ export const Footer = () => {
             </ul>
           </div>
           <div className="flex flex-col gap-5 text-lg font-medium leading-[26px]">
-            <h4 className="text-foreground/80">Resource</h4>
+            <h4 className="text-foreground/80 line-clamp-1">Resource</h4>
             <ul className="space-y-5">
               {footerMenu.resource.map(({ href, title }, index) => (
                 <li key={index}>
-                  <Link href={href} className="text-foreground/60">
+                  <Link href={href} className="line-clamp-1 text-foreground/60">
                     {title}
                   </Link>
                 </li>
@@ -109,11 +109,11 @@ export const Footer = () => {
             </ul>
           </div>
           <div className="flex flex-col gap-5 text-lg font-medium leading-[26px]">
-            <h4 className="text-foreground/80">Features</h4>
+            <h4 className="text-foreground/80 line-clamp-1">Features</h4>
             <ul className="space-y-5">
               {footerMenu.features.map(({ href, title }, index) => (
                 <li key={index}>
-                  <Link href={href} className="text-foreground/60">
+                  <Link href={href} className="line-clamp-1 text-foreground/60">
                     {title}
                   </Link>
                 </li>
