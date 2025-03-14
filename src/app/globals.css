@@ -23,6 +23,9 @@
     @apply bg-background text-foreground font-sans max-w-desktop;
     font-family: "Space Grotesk", sans-serif;
   }
+  section {
+    @apply w-[1440px];
+  }
   h2 {
     @apply leading-[62px] text-[56px] tracking-tight font-bold;
   }
