@@ -4,7 +4,7 @@ export const Team = () => {
   return (
     <div className="flex w-full overflow-hidden pt-16 mt-[1px] pr-[127px]">
       <div className="team-container">
-        <button type="button" className="team-people">
+        <button type="button" className="team-people selected">
           <img
             src={`${
               process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"

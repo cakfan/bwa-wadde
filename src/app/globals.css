@@ -89,7 +89,8 @@
   .team-people p {
     @apply text-lg leading-[26px] text-start line-clamp-1 text-foreground/60;
   }
-  .team-people:hover {
+  .team-people:hover,
+  .team-people.selected {
     @apply bg-foreground/10 cursor-pointer;
   }
   .statistics-container {
