@@ -24,7 +24,7 @@ export const OurApp = () => {
             professional SaaS website.
           </p>
         </div>
-        <div className="mt-16 flex flex-col gap-[18px] mb-0.5">
+        <div className="mt-8 flex flex-col gap-[18px] mb-0.5">
           <div className="flex items-center gap-3.5">
             <img
               src={`${
