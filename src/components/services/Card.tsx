@@ -10,7 +10,7 @@ export const CardServiceContainer = ({
   return (
     <div
       className={cn(
-        "flex flex-col gap-3 rounded-[21px] bg-foreground/10 px-9 pt-[52px]",
+        "flex flex-col gap-3 rounded-[12px] bg-foreground/10 px-9 pt-[52px]",
         className
       )}
     >

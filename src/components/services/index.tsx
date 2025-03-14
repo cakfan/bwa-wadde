@@ -38,7 +38,7 @@ export const ServiceSection = () => {
           </CardServiceContainer>
           <CardServiceContainer className="w-[571px]">
             <div className="flex justify-between items-center w-full pb-[42px] border-b-2 border-dotted border-foreground/10">
-              <h3>Retirement Fund</h3>
+              <h3>Retirement Plan</h3>
               <div className="ml-16 rounded-full bg-secondary p-3">
                 <img
                   src={`${
