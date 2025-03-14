@@ -35,7 +35,7 @@ export const Hero = () => {
         </h1>
       </div>
 
-      <p className="w-[656px] leading-10 tracking-wider text-2xl ml-[151px] font-normal text-foreground/60">
+      <p className="w-[656px] leading-10 tracking-wider text-2xl ml-[109px] font-normal text-foreground/60">
         FramerBite provides the essential elements for crafting a top-tier
         website for your SaaS platform.
       </p>
