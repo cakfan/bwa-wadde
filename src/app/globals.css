@@ -100,7 +100,7 @@
     @apply flex flex-col gap-2 w-auto;
   }
   .statistics .count {
-    @apply text-7xl font-bold leading-[88px] line-clamp-1 tracking-tight text-[#1560F2];
+    @apply text-7xl text-center font-bold leading-[88px] line-clamp-1 tracking-tight text-[#1560F2];
   }
   .statistics .description {
     @apply text-foreground/60 line-clamp-1 leading-[26px] text-lg;
