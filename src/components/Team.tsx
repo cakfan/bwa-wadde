@@ -41,7 +41,7 @@ export const Team = () => {
   const [activeTab, setActiveTab] = useState("team1");
 
   return (
-    <div className="flex w-full overflow-hidden pt-16 mt-[1px] pr-[127px]">
+    <div className="flex w-full overflow-hidden py-16 mt-[34px] pr-[127px]">
       {/* Team Members (Tabs) */}
       <div className="team-container">
         {teamMembers.map((member) => (
@@ -75,7 +75,6 @@ export const Team = () => {
             <p className="text-[36px] font-bold leading-[52px] tracking-[-1px]">
               {member.testimonial}
               <span className="text-foreground/40">
-                {" "}
                 enabling us to implement informed.
               </span>
             </p>
