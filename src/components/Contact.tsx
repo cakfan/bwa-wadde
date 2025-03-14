@@ -9,16 +9,16 @@ export const Contact = () => {
           FramerBite supplies the key components for assembling a top-tier
           website tailored to your SaaS needs.
         </p>
-        <div className="mt-3.5 mx-auto flex items-center justify-between w-[478px] rounded-full border border-[#BFBFC5]">
+        <form className="group transition-all duration-300 mt-3.5 mx-auto bg-foreground/5 flex items-center justify-between w-[478px] rounded-full border border-[#BFBFC5] focus-within:ring focus-within:ring-foreground hover:ring hover:ring-foreground">
           <input
             type="email"
             placeholder="Enter your email"
-            className="px-7 h-[26px] placeholder-foreground/40 leading-[16px] text-lg"
+            className="px-7 h-[26px] placeholder-foreground/40 leading-[16px] text-lg focus:outline-none"
           />
           <button type="submit" className="btn primary sm mr-1 my-[3px]">
             Email me
           </button>
-        </div>
+        </form>
       </div>
     </section>
   );
