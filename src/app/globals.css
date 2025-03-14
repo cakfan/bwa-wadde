@@ -81,7 +81,7 @@
     @apply w-[312px] flex flex-col gap-4;
   }
   .team-people {
-    @apply flex items-center justify-start gap-4 rounded-full pl-3.5 py-3 transition-colors ease-in duration-150;
+    @apply flex items-center justify-start gap-4 rounded-full pl-3.5 py-3 transition-all ease-in duration-300;
   }
   .team-people img {
     @apply w-16 h-16 rounded-full;
