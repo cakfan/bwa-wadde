@@ -23,10 +23,6 @@
     @apply bg-background text-foreground font-sans max-w-desktop;
     font-family: "Space Grotesk", sans-serif;
   }
-  section,
-  footer {
-    @apply w-full;
-  }
   h2 {
     @apply leading-[62px] text-[56px] tracking-tight font-bold;
   }

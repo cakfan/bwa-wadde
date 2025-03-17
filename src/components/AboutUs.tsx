@@ -5,7 +5,7 @@ import { Team } from "./Team";
 /* eslint-disable @next/next/no-img-element */
 export const AboutUs = () => {
   return (
-    <section className="flex w-full flex-col gap-16 pl-[220px] py-12 mb-[50px]">
+    <section className="flex w-full flex-col max-w-[1440px] mx-auto gap-16 pl-[220px] py-12 mb-[50px]">
       <div className="flex w-full gap-16 justify-start items-center">
         <div className="flex flex-col justify-start flex-none max-w-[460px]">
           <span className="section mb-3">About Us</span>
