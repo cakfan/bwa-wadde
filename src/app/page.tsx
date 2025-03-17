@@ -4,7 +4,7 @@ import { Contact } from "@/components/Contact";
 import { DownloadApp } from "@/components/DownloadApp";
 import { Header } from "@/components/header";
 import { OurApp } from "@/components/OurApp";
-import { ServiceSection } from "@/components/services";
+import { ServiceSection } from "@/components/Service";
 import { Statistics } from "@/components/Statistics";
 import { Team } from "@/components/Team";
 

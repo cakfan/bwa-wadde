@@ -26,7 +26,7 @@ export const Companies = () => {
       <p className="w-full max-w-[682px] text-center text-4xl leading-[52px] font-bold">
         Join over 55,000 businesses that have achieved their goals.
       </p>
-      <div className="bg-foreground flex gap-12 rounded-full px-[82px] py-[50px]">
+      <div className="bg-foreground flex w-[1162.89px] gap-12 rounded-full px-[82px] py-[50px]">
         {companiesList.map((item, index) => (
           <div
             key={index}
