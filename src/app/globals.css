@@ -24,7 +24,7 @@
     font-family: "Space Grotesk", sans-serif;
   }
   section {
-    @apply w-[1440px];
+    @apply w-full;
   }
   h2 {
     @apply leading-[62px] text-[56px] tracking-tight font-bold;
