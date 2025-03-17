@@ -62,25 +62,25 @@ const footerMenu = {
 
 export const Footer = () => {
   return (
-    <footer className="mx-auto bg-foreground/5">
-      <div className="flex flex-col gap-14 w-full max-w-[1440px] mx-auto pl-[220px] py-24">
+    <footer className="bg-foreground/5 mx-auto">
+      <div className="mx-auto flex w-full max-w-[1440px] flex-col gap-14 py-24 pl-[220px]">
         <div className="flex gap-[52px]">
-          <div className="flex flex-col gap-[26px] max-w-[352px]">
+          <div className="flex max-w-[352px] flex-col gap-[26px]">
             <Logo />
-            <p className="text-lg leading-[26px] tracking-normal w-full font-normal text-foreground/60">
+            <p className="text-foreground/60 w-full text-lg leading-[26px] font-normal tracking-normal">
               XB gives you the blocks <br /> needed to create a truly
               professional website for your SaaS.
             </p>
           </div>
           <div className="flex gap-[46px]">
-            <div className="flex flex-col gap-5 text-lg font-medium leading-[26px]">
+            <div className="flex flex-col gap-5 text-lg leading-[26px] font-medium">
               <h4 className="text-foreground/80 line-clamp-1">Solutions</h4>
               <ul className="space-y-5">
                 {footerMenu.solutitons.map(({ href, title }, index) => (
                   <li key={index}>
                     <Link
                       href={href}
-                      className="line-clamp-1 text-foreground/60"
+                      className="text-foreground/60 line-clamp-1"
                     >
                       {title}
                     </Link>
@@ -88,14 +88,14 @@ export const Footer = () => {
                 ))}
               </ul>
             </div>
-            <div className="flex flex-col gap-5 text-lg font-medium leading-[26px]">
+            <div className="flex flex-col gap-5 text-lg leading-[26px] font-medium">
               <h4 className="text-foreground/80 line-clamp-1">Company</h4>
               <ul className="space-y-5">
                 {footerMenu.company.map(({ href, title }, index) => (
                   <li key={index}>
                     <Link
                       href={href}
-                      className="line-clamp-1 text-foreground/60"
+                      className="text-foreground/60 line-clamp-1"
                     >
                       {title}
                     </Link>
@@ -103,14 +103,14 @@ export const Footer = () => {
                 ))}
               </ul>
             </div>
-            <div className="flex flex-col gap-5 text-lg font-medium leading-[26px]">
+            <div className="flex flex-col gap-5 text-lg leading-[26px] font-medium">
               <h4 className="text-foreground/80 line-clamp-1">Resource</h4>
               <ul className="space-y-5">
                 {footerMenu.resource.map(({ href, title }, index) => (
                   <li key={index}>
                     <Link
                       href={href}
-                      className="line-clamp-1 text-foreground/60"
+                      className="text-foreground/60 line-clamp-1"
                     >
                       {title}
                     </Link>
@@ -118,14 +118,14 @@ export const Footer = () => {
                 ))}
               </ul>
             </div>
-            <div className="flex flex-col gap-5 text-lg font-medium leading-[26px]">
+            <div className="flex flex-col gap-5 text-lg leading-[26px] font-medium">
               <h4 className="text-foreground/80 line-clamp-1">Features</h4>
               <ul className="space-y-5">
                 {footerMenu.features.map(({ href, title }, index) => (
                   <li key={index}>
                     <Link
                       href={href}
-                      className="line-clamp-1 text-foreground/60"
+                      className="text-foreground/60 line-clamp-1"
                     >
                       {title}
                     </Link>
@@ -135,7 +135,7 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="text-lg leading-[26px] font-normal text-foreground/60">
+        <p className="text-foreground/60 text-lg leading-[26px] font-normal">
           Copyright &copy; 2023 All Rights Reserved by XB
         </p>
       </div>

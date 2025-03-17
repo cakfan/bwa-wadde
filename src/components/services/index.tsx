@@ -3,19 +3,19 @@ import { CardServiceContainer } from "./Card";
 
 export const ServiceSection = () => {
   return (
-    <section className="mx-auto px-[209px] max-w-[1440px]">
-      <div className="flex flex-col gap-[68px] max-w-[1021px] pt-[72px] pb-3 mb-[68px]">
-        <h2 className="tracking-tight text-[56px] font-bold leading-[62px] capitalize">
+    <section className="mx-auto max-w-[1440px] px-[209px]">
+      <div className="mb-[68px] flex max-w-[1021px] flex-col gap-[68px] pt-[72px] pb-3">
+        <h2 className="text-[56px] leading-[62px] font-bold tracking-tight capitalize">
           We&apos;re here to assist you in creating, managing
         </h2>
         <div className="flex w-[1021px] flex-col gap-[34px]">
           <div className="flex w-full gap-[34px]">
             <CardServiceContainer>
-              <div className="flex w-[344px] justify-around items-center pb-[42px] border-b-2 border-dotted border-foreground/10">
-                <h3 className="leading-10 text-3xl font-bold tracking-[-1px]">
+              <div className="border-foreground/10 flex w-[344px] items-center justify-around border-b-2 border-dotted pb-[42px]">
+                <h3 className="text-3xl leading-10 font-bold tracking-[-1px]">
                   Invesment Fund
                 </h3>
-                <div className="ml-16 rounded-full bg-secondary p-3">
+                <div className="bg-secondary ml-16 rounded-full p-3">
                   <img
                     src={`${
                       process.env.NODE_ENV === "production"
@@ -27,11 +27,11 @@ export const ServiceSection = () => {
                   />
                 </div>
               </div>
-              <p className="leading-7 text-xl font-normal tracking-[0.6px] text-foreground/60 mb-[82px]">
+              <p className="text-foreground/60 mb-[82px] text-xl leading-7 font-normal tracking-[0.6px]">
                 FramerBite delivers the essential components to build a polished
                 and professional website for your SaaS business.
               </p>
-              <div className="mx-auto rounded-t-xl shrink-0 max-w-[316px] h-[149px]">
+              <div className="mx-auto h-[149px] max-w-[316px] shrink-0 rounded-t-xl">
                 <img
                   src={`${
                     process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
@@ -42,11 +42,11 @@ export const ServiceSection = () => {
               </div>
             </CardServiceContainer>
             <CardServiceContainer className="w-[571px]">
-              <div className="flex justify-between items-center w-full pb-[42px] border-b-2 border-dotted border-foreground/10">
-                <h3 className="leading-10 text-3xl font-bold tracking-[-1px]">
+              <div className="border-foreground/10 flex w-full items-center justify-between border-b-2 border-dotted pb-[42px]">
+                <h3 className="text-3xl leading-10 font-bold tracking-[-1px]">
                   Retirement Plan
                 </h3>
-                <div className="ml-16 rounded-full bg-secondary p-3">
+                <div className="bg-secondary ml-16 rounded-full p-3">
                   <img
                     src={`${
                       process.env.NODE_ENV === "production"
@@ -58,14 +58,14 @@ export const ServiceSection = () => {
                   />
                 </div>
               </div>
-              <p className="leading-7 text-xl font-normal tracking-[0.6px] text-foreground/60 mb-[49px]">
+              <p className="text-foreground/60 mb-[49px] text-xl leading-7 font-normal tracking-[0.6px]">
                 FramerBite offers the essential building blocks for developing a
                 sophisticated website for your SaaS, a well-established fact
                 recognized by numerous desktop publishing packages and web page
                 editors.
               </p>
               <div className="flex w-full justify-center gap-8">
-                <div className="mx-auto rounded-t-xl shrink-0 w-[313px] h-[154px]">
+                <div className="mx-auto h-[154px] w-[313px] shrink-0 rounded-t-xl">
                   <img
                     src={`${
                       process.env.NODE_ENV === "production"
@@ -76,7 +76,7 @@ export const ServiceSection = () => {
                     className="w-full"
                   />
                 </div>
-                <div className="mx-auto rounded-t-xl shrink-0 w-[163px] h-[154px]">
+                <div className="mx-auto h-[154px] w-[163px] shrink-0 rounded-t-xl">
                   <img
                     src={`${
                       process.env.NODE_ENV === "production"
@@ -90,9 +90,9 @@ export const ServiceSection = () => {
               </div>
             </CardServiceContainer>
           </div>
-          <CardServiceContainer className="flex-row w-full px-[46px] pb-8">
-            <div className="flex flex-col w-full max-w-[408px] h-[374px]">
-              <div className="rounded-full w-fit bg-secondary p-3 mb-10">
+          <CardServiceContainer className="w-full flex-row px-[46px] pb-8">
+            <div className="flex h-[374px] w-full max-w-[408px] flex-col">
+              <div className="bg-secondary mb-10 w-fit rounded-full p-3">
                 <img
                   src={`${
                     process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
@@ -101,17 +101,17 @@ export const ServiceSection = () => {
                   className="h-6 w-6"
                 />
               </div>
-              <h3 className="mr-[37px] leading-10 text-3xl font-bold tracking-[-1px]">
+              <h3 className="mr-[37px] text-3xl leading-10 font-bold tracking-[-1px]">
                 Global Visa and Mastercard with Multi-Currency Support
               </h3>
-              <p className="leading-7 text-xl font-normal tracking-[0.6px] text-foreground/60 mt-[26px]">
+              <p className="text-foreground/60 mt-[26px] text-xl leading-7 font-normal tracking-[0.6px]">
                 FramerBite provides the necessary elements for crafting a
                 professional-grade website for your SaaS, acknowledged by
                 various desktop publishing tools
               </p>
             </div>
             <div className="flex flex-1 items-end justify-end">
-              <div className="rounded-xl shrink-0 max-w-[462px] h-[278px]">
+              <div className="h-[278px] max-w-[462px] shrink-0 rounded-xl">
                 <img
                   src={`${
                     process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"

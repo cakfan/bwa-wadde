@@ -4,9 +4,9 @@ import Link from "next/link";
 
 export const DownloadApp = () => {
   return (
-    <section className="mx-auto bg-foreground/5">
-      <div className="flex w-full max-w-[1440px] mx-auto justify-center gap-16 pl-[220px] mt-[54px] pt-[95px]">
-        <div className="mt-20 pt-0.5 shrink-0 h-[494px] max-w-[472px]">
+    <section className="bg-foreground/5 mx-auto">
+      <div className="mx-auto mt-[54px] flex w-full max-w-[1440px] justify-center gap-16 pt-[95px] pl-[220px]">
+        <div className="mt-20 h-[494px] max-w-[472px] shrink-0 pt-0.5">
           <img
             src={`${
               process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
@@ -15,12 +15,12 @@ export const DownloadApp = () => {
             className="h-full w-full"
           />
         </div>
-        <div className="flex flex-col flex-1 ml-1 gap-8 pb-12">
-          <div className="flex flex-col gap-8 max-w-[528px]">
-            <h2 className="leading-[62px] text-[56px] tracking-tight font-bold capitalize">
+        <div className="ml-1 flex flex-1 flex-col gap-8 pb-12">
+          <div className="flex max-w-[528px] flex-col gap-8">
+            <h2 className="text-[56px] leading-[62px] font-bold tracking-tight capitalize">
               Download Our Mobile App
             </h2>
-            <p className="font-normal tracking-[0.6px] text-foreground/60 leading-10 text-2xl max-w-[460px]">
+            <p className="text-foreground/60 max-w-[460px] text-2xl leading-10 font-normal tracking-[0.6px]">
               X provides you with the essential toolkit to develop a genuinely
               polished website
             </p>
@@ -33,7 +33,7 @@ export const DownloadApp = () => {
                 }icons/check.svg`}
                 alt="icon"
               />
-              <p className="font-normal tracking-[0.6px] leading-8 text-xl text-foreground">
+              <p className="text-foreground text-xl leading-8 font-normal tracking-[0.6px]">
                 Effortless Browsing
               </p>
             </div>
@@ -44,7 +44,7 @@ export const DownloadApp = () => {
                 }icons/check.svg`}
                 alt="icon"
               />
-              <p className="font-normal tracking-[0.6px] leading-8 text-xl text-foreground">
+              <p className="text-foreground text-xl leading-8 font-normal tracking-[0.6px]">
                 Secure Top 5% Industry Experts for Your Project
               </p>
             </div>
@@ -55,12 +55,12 @@ export const DownloadApp = () => {
                 }icons/check.svg`}
                 alt="icon"
               />
-              <p className="font-normal tracking-[0.6px] leading-8 text-xl text-foreground">
+              <p className="text-foreground text-xl leading-8 font-normal tracking-[0.6px]">
                 WeChat & live chat
               </p>
             </div>
           </div>
-          <div className="flex mt-0.5 gap-5">
+          <div className="mt-0.5 flex gap-5">
             <Link href="#">
               <img
                 src={`${

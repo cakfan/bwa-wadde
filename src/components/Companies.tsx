@@ -22,15 +22,15 @@ const companiesList = [
 
 export const Companies = () => {
   return (
-    <section className="flex flex-col gap-[18px] items-center mt-[59px] px-[138.55px] pb-[122px]">
-      <p className="w-full max-w-[682px] leading-[52px] font-bold text-center text-4xl">
+    <section className="mt-[59px] flex flex-col items-center gap-[18px] px-[138.55px] pb-[122px]">
+      <p className="w-full max-w-[682px] text-center text-4xl leading-[52px] font-bold">
         Join over 55,000 businesses that have achieved their goals.
       </p>
-      <div className="flex gap-12 bg-foreground rounded-full px-[82px] py-[50px]">
+      <div className="bg-foreground flex gap-12 rounded-full px-[82px] py-[50px]">
         {companiesList.map((item, index) => (
           <div
             key={index}
-            className="flex items-center justify-center w-fit h-8"
+            className="flex h-8 w-fit items-center justify-center"
           >
             <img src={item} alt="Logo" />
           </div>

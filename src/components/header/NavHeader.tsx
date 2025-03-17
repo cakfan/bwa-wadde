@@ -45,14 +45,14 @@ const NavItem = ({ href, title, sub }: (typeof navItems)[0]) => {
       {sub ? (
         <button
           type="button"
-          className="flex items-center gap-2.5 leading-[26px] text-[18px] cursor-pointer font-medium-link"
+          className="font-medium-link flex cursor-pointer items-center gap-2.5 text-[18px] leading-[26px]"
         >
           {Content}
         </button>
       ) : (
         <Link
           href={href}
-          className="flex items-center gap-2.5 leading-[26px] text-[18px] font-medium-link"
+          className="font-medium-link flex items-center gap-2.5 text-[18px] leading-[26px]"
         >
           {Content}
         </Link>
@@ -63,7 +63,7 @@ const NavItem = ({ href, title, sub }: (typeof navItems)[0]) => {
 
 export const NavHeader = () => {
   return (
-    <nav className="h-[92px] px-8 z-50 flex items-center justify-between">
+    <nav className="z-50 flex h-[92px] items-center justify-between px-8">
       <Logo />
       <ul className="flex gap-10">
         {navItems.map((item, index) => (

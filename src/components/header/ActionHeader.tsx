@@ -2,16 +2,16 @@ import Link from "next/link";
 
 export const ActionHeader = () => {
   return (
-    <div className="flex gap-6 items-center">
+    <div className="flex items-center gap-6">
       <Link
         href="#"
-        className="flex items-center gap-2.5 leading-[26px] text-[18px] font-medium"
+        className="flex items-center gap-2.5 text-[18px] leading-[26px] font-medium"
       >
         Sign In
       </Link>
       <Link
         href="#"
-        className="leading-6 w-fit font-medium text-[16px] bg-primary rounded-full py-[18px] px-7"
+        className="bg-primary w-fit rounded-full px-7 py-[18px] text-[16px] leading-6 font-medium"
       >
         Get This Template
       </Link>

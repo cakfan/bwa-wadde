@@ -4,23 +4,23 @@ import Link from "next/link";
 export const AboutUs = () => {
   return (
     <section className="mx-auto max-w-[1440px]">
-      <div className="flex flex-col gap-16 pl-[220px] py-12 mb-[50px]">
-        <div className="flex w-full gap-16 justify-start items-center">
-          <div className="flex flex-col justify-start flex-1 shrink-0 max-w-[460px]">
-            <span className="leading-[26px] text-lg font-medium text-primary uppercase mb-3">
+      <div className="mb-[50px] flex flex-col gap-16 py-12 pl-[220px]">
+        <div className="flex w-full items-center justify-start gap-16">
+          <div className="flex max-w-[460px] flex-1 shrink-0 flex-col justify-start">
+            <span className="text-primary mb-3 text-lg leading-[26px] font-medium uppercase">
               About Us
             </span>
-            <h2 className="capitalize leading-[62px] text-[56px] tracking-tight font-bold">
+            <h2 className="text-[56px] leading-[62px] font-bold tracking-tight capitalize">
               Embark on Your Digital{" "}
             </h2>
-            <p className="font-normal tracking-[0.6px] text-foreground/60 mt-9 text-2xl leading-10 mb-[52px]">
+            <p className="text-foreground/60 mt-9 mb-[52px] text-2xl leading-10 font-normal tracking-[0.6px]">
               FramerBite offers the key components to build a professional-grade
               website for your SaaS, a fact well-known to readers familiar with
               the industry.
             </p>
             <Link
               href="#"
-              className="leading-6 w-fit font-medium text-[16px] rounded-full bg-transparent border-2 border-primary text-primary py-[18px] px-[22px]"
+              className="border-primary text-primary w-fit rounded-full border-2 bg-transparent px-[22px] py-[18px] text-[16px] leading-6 font-medium"
             >
               More About Us
             </Link>
