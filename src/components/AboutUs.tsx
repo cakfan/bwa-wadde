@@ -7,14 +7,21 @@ export const AboutUs = () => {
       <div className="flex flex-col gap-16 pl-[220px] py-12 mb-[50px]">
         <div className="flex w-full gap-16 justify-start items-center">
           <div className="flex flex-col justify-start flex-1 shrink-0 max-w-[460px]">
-            <span className="section mb-3">About Us</span>
-            <h2 className="capitalize">Embark on Your Digital </h2>
-            <p className="section mt-9 text-2xl leading-10 mb-[52px]">
+            <span className="leading-[26px] text-lg font-medium text-primary uppercase mb-3">
+              About Us
+            </span>
+            <h2 className="capitalize leading-[62px] text-[56px] tracking-tight font-bold">
+              Embark on Your Digital{" "}
+            </h2>
+            <p className="font-normal tracking-[0.6px] text-foreground/60 mt-9 text-2xl leading-10 mb-[52px]">
               FramerBite offers the key components to build a professional-grade
               website for your SaaS, a fact well-known to readers familiar with
               the industry.
             </p>
-            <Link href="#" className="btn primary outline md">
+            <Link
+              href="#"
+              className="leading-6 w-fit font-medium text-[16px] rounded-full bg-transparent border-2 border-primary text-primary py-[18px] px-[22px]"
+            >
               More About Us
             </Link>
           </div>

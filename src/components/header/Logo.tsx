@@ -10,7 +10,7 @@ export const Logo = () => {
           process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
         }logo.svg`}
         alt="Logo"
-        className="logo"
+        className="w-[144px]"
       />
     </Link>
   );

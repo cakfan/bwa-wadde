@@ -41,7 +41,10 @@ export const Hero = () => {
       </p>
 
       <div className="flex ml-[146px] gap-10 items-center mt-20">
-        <Link href="#" className="btn primary lg">
+        <Link
+          href="#"
+          className="leading-6 w-fit font-medium text-[16px] bg-primary rounded-full py-[18px] px-7"
+        >
           Get Started Now
         </Link>
         <div className="flex gap-6 items-center">
@@ -51,22 +54,22 @@ export const Hero = () => {
                 process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
               }assets/circle-person-1.png`}
               alt="person"
-              className="circle-person"
+              className="rounded-full h-[60px] w-[60px] shrink-0"
             />
             <img
               src={`${
                 process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
               }assets/circle-person-2.png`}
               alt="person"
-              className="circle-person -ml-4"
+              className="rounded-full h-[60px] w-[60px] shrink-0 -ml-4"
             />
-            <div className="btn-icon -ml-4 border border-foreground/40">
+            <div className="flex items-center justify-center h-[60px] w-[60px] bg-foreground rounded-full -ml-4 border border-foreground/40">
               <img
                 src={`${
                   process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
                 }icons/plus.svg`}
                 alt="person"
-                className="circle-person"
+                className="w-6 h-6"
               />
             </div>
           </div>

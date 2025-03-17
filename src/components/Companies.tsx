@@ -28,8 +28,11 @@ export const Companies = () => {
       </p>
       <div className="flex gap-12 bg-foreground rounded-full px-[82px] py-[50px]">
         {companiesList.map((item, index) => (
-          <div key={index} className="companies-logo">
-            <img src={item} alt="Logo" className="companies-logo" />
+          <div
+            key={index}
+            className="flex items-center justify-center w-fit h-8"
+          >
+            <img src={item} alt="Logo" />
           </div>
         ))}
       </div>

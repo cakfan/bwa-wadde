@@ -17,8 +17,10 @@ export const DownloadApp = () => {
         </div>
         <div className="flex flex-col flex-1 ml-1 gap-8 pb-12">
           <div className="flex flex-col gap-8 max-w-[528px]">
-            <h2 className="line-clamp-2 capitalize">Download Our Mobile App</h2>
-            <p className="section leading-10 text-2xl max-w-[460px]">
+            <h2 className="leading-[62px] text-[56px] tracking-tight font-bold capitalize">
+              Download Our Mobile App
+            </h2>
+            <p className="font-normal tracking-[0.6px] text-foreground/60 leading-10 text-2xl max-w-[460px]">
               X provides you with the essential toolkit to develop a genuinely
               polished website
             </p>
@@ -31,7 +33,7 @@ export const DownloadApp = () => {
                 }icons/check.svg`}
                 alt="icon"
               />
-              <p className="section leading-8 text-xl text-foreground">
+              <p className="font-normal tracking-[0.6px] leading-8 text-xl text-foreground">
                 Effortless Browsing
               </p>
             </div>
@@ -42,7 +44,7 @@ export const DownloadApp = () => {
                 }icons/check.svg`}
                 alt="icon"
               />
-              <p className="section leading-8 text-xl text-foreground">
+              <p className="font-normal tracking-[0.6px] leading-8 text-xl text-foreground">
                 Secure Top 5% Industry Experts for Your Project
               </p>
             </div>
@@ -53,7 +55,7 @@ export const DownloadApp = () => {
                 }icons/check.svg`}
                 alt="icon"
               />
-              <p className="section leading-8 text-xl text-foreground">
+              <p className="font-normal tracking-[0.6px] leading-8 text-xl text-foreground">
                 WeChat & live chat
               </p>
             </div>

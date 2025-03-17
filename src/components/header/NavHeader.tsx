@@ -43,11 +43,17 @@ const NavItem = ({ href, title, sub }: (typeof navItems)[0]) => {
   return (
     <li>
       {sub ? (
-        <button type="button" className="header-link">
+        <button
+          type="button"
+          className="flex items-center gap-2.5 leading-[26px] text-[18px] font-medium-link"
+        >
           {Content}
         </button>
       ) : (
-        <Link href={href} className="header-link">
+        <Link
+          href={href}
+          className="flex items-center gap-2.5 leading-[26px] text-[18px] font-medium-link"
+        >
           {Content}
         </Link>
       )}

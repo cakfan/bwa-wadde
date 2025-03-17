@@ -16,10 +16,10 @@ export const OurApp = () => {
       </div>
       <div className="flex flex-col gap-8">
         <div className="flex flex-col max-w-[514px]">
-          <h2 className="capitalize">
+          <h2 className="capitalize leading-[62px] text-[56px] tracking-tight font-bold">
             Pave your path to triumph with XB innovation.
           </h2>
-          <p className="section mt-8 max-w-[460px] leading-10 text-2xl">
+          <p className="font-normal tracking-[0.6px] text-foreground/60 mt-8 max-w-[460px] leading-10 text-2xl">
             X equips you with the essential tools to craft a genuinely
             professional SaaS website.
           </p>
@@ -32,7 +32,7 @@ export const OurApp = () => {
               }icons/check.svg`}
               alt="icon"
             />
-            <p className="section leading-8 text-xl text-foreground">
+            <p className="font-normal tracking-[0.6px] leading-8 text-xl text-foreground">
               Effortless Browsing
             </p>
           </div>
@@ -43,7 +43,7 @@ export const OurApp = () => {
               }icons/check.svg`}
               alt="icon"
             />
-            <p className="section leading-8 text-xl text-foreground">
+            <p className="font-normal tracking-[0.6px] leading-8 text-xl text-foreground">
               Secure Top 5% Industry Experts for Your Project
             </p>
           </div>
@@ -54,12 +54,15 @@ export const OurApp = () => {
               }icons/check.svg`}
               alt="icon"
             />
-            <p className="section leading-8 text-xl text-foreground">
+            <p className="font-normal tracking-[0.6px] leading-8 text-xl text-foreground">
               Secure Transaction Platform
             </p>
           </div>
         </div>
-        <Link href="#" className="btn primary md font-normal">
+        <Link
+          href="#"
+          className="leading-6 w-fit text-[16px] bg-primary rounded-full py-[18px] px-[22px] font-normal"
+        >
           More About Us
         </Link>
       </div>

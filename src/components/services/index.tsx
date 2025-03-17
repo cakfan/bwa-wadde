@@ -5,14 +5,16 @@ export const ServiceSection = () => {
   return (
     <section className="mx-auto px-[209px] max-w-[1440px]">
       <div className="flex flex-col gap-[68px] max-w-[1021px] pt-[72px] pb-3 mb-[68px]">
-        <h2 className="text-[56px] font-bold leading-[62px] capitalize">
+        <h2 className="tracking-tight text-[56px] font-bold leading-[62px] capitalize">
           We&apos;re here to assist you in creating, managing
         </h2>
         <div className="flex w-[1021px] flex-col gap-[34px]">
           <div className="flex w-full gap-[34px]">
             <CardServiceContainer>
               <div className="flex w-[344px] justify-around items-center pb-[42px] border-b-2 border-dotted border-foreground/10">
-                <h3>Invesment Fund</h3>
+                <h3 className="leading-10 text-3xl font-bold tracking-[-1px]">
+                  Invesment Fund
+                </h3>
                 <div className="ml-16 rounded-full bg-secondary p-3">
                   <img
                     src={`${
@@ -25,7 +27,7 @@ export const ServiceSection = () => {
                   />
                 </div>
               </div>
-              <p className="section mb-[82px]">
+              <p className="leading-7 text-xl font-normal tracking-[0.6px] text-foreground/60 mb-[82px]">
                 FramerBite delivers the essential components to build a polished
                 and professional website for your SaaS business.
               </p>
@@ -41,7 +43,9 @@ export const ServiceSection = () => {
             </CardServiceContainer>
             <CardServiceContainer className="w-[571px]">
               <div className="flex justify-between items-center w-full pb-[42px] border-b-2 border-dotted border-foreground/10">
-                <h3>Retirement Plan</h3>
+                <h3 className="leading-10 text-3xl font-bold tracking-[-1px]">
+                  Retirement Plan
+                </h3>
                 <div className="ml-16 rounded-full bg-secondary p-3">
                   <img
                     src={`${
@@ -54,7 +58,7 @@ export const ServiceSection = () => {
                   />
                 </div>
               </div>
-              <p className="section mb-[49px]">
+              <p className="leading-7 text-xl font-normal tracking-[0.6px] text-foreground/60 mb-[49px]">
                 FramerBite offers the essential building blocks for developing a
                 sophisticated website for your SaaS, a well-established fact
                 recognized by numerous desktop publishing packages and web page
@@ -97,10 +101,10 @@ export const ServiceSection = () => {
                   className="h-6 w-6"
                 />
               </div>
-              <h3 className="mr-[37px]">
+              <h3 className="mr-[37px] leading-10 text-3xl font-bold tracking-[-1px]">
                 Global Visa and Mastercard with Multi-Currency Support
               </h3>
-              <p className="section mt-[26px]">
+              <p className="leading-7 text-xl font-normal tracking-[0.6px] text-foreground/60 mt-[26px]">
                 FramerBite provides the necessary elements for crafting a
                 professional-grade website for your SaaS, acknowledged by
                 various desktop publishing tools
