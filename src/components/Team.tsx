@@ -62,7 +62,7 @@ export const Team = () => {
       </div>
 
       {/* Testimonial Section with Smooth Transition */}
-      <div className="relative ml-[76px] flex-none w-full max-w-[705px]">
+      <div className="relative ml-[76px] flex-none w-[705px]">
         {teamMembers.map((member) => (
           <div
             key={member.id}
