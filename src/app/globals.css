@@ -74,25 +74,6 @@
   .companies-logo {
     @apply flex items-center justify-center w-fit h-8;
   }
-  .team-container {
-    @apply w-[312px] flex-none h-auto flex flex-col gap-4;
-  }
-  .team-people {
-    @apply flex w-full items-center justify-start gap-4 rounded-full pl-3.5 py-3 transition-all ease-in duration-300;
-  }
-  .team-people img {
-    @apply w-16 h-16 rounded-full;
-  }
-  .team-people .team-name {
-    @apply text-xl leading-8  text-start -tracking-[0.6px] font-medium;
-  }
-  .team-people .team-role {
-    @apply text-lg leading-[26px] text-start  text-foreground/60;
-  }
-  .team-people:hover,
-  .team-people.selected {
-    @apply bg-foreground/10 cursor-pointer;
-  }
   .statistics-container {
     @apply flex w-full items-center gap-[63px];
   }
