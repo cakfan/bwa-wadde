@@ -32,7 +32,7 @@ const statistics = [
 
 export const Statistics = () => {
   return (
-    <div className="py-12 mt-5">
+    <div className="py-12 mt-[15px]">
       <div className="statistics-container">
         {statistics.map(({ count, icon, description }, index) => (
           <div key={index} className="statistics">

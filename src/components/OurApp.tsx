@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const OurApp = () => {
   return (
-    <section className="relative flex pl-[220px] py-12">
+    <section className="relative flex pl-[220px] mt-10 py-12">
       <div className="relative mt-[17px] mr-2">
         <img
           src={`${
