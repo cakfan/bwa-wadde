@@ -5,7 +5,7 @@ import Link from "next/link";
 export const OurApp = () => {
   return (
     <section className="relative flex pl-[220px] mt-10 py-12">
-      <div className="relative mt-[17px] mr-2">
+      <div className="relative shrink-0 mt-[17px] mr-2">
         <img
           src={`${
             process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
@@ -15,11 +15,11 @@ export const OurApp = () => {
         />
       </div>
       <div className="flex flex-col gap-8">
-        <div className="flex flex-col w-[514px]">
+        <div className="flex flex-col max-w-[514px]">
           <h2 className="capitalize">
             Pave your path to triumph with XB innovation.
           </h2>
-          <p className="section mt-8 w-[460px] leading-10 text-2xl">
+          <p className="section mt-8 max-w-[460px] leading-10 text-2xl">
             X equips you with the essential tools to craft a genuinely
             professional SaaS website.
           </p>

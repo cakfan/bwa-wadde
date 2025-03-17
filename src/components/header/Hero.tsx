@@ -5,10 +5,10 @@ import Link from "next/link";
 export const Hero = () => {
   return (
     <div className="flex flex-col gap-3.5">
-      <div className="mt-3.5 ml-[150.52px] w-[851px] h-[306px]">
+      <div className="mt-3.5 ml-[150.52px] max-w-[851px] h-[306px]">
         <h1 className="relative flex flex-wrap text-foreground text-7xl font-bold leading-[88px]">
           <span className="mt-[66px]">Intelligent</span>
-          <div className="relative w-[168.77px] h-[186.71px]">
+          <div className="relative shrink-0 w-[168.77px] h-[186.71px]">
             <Image
               src={`${
                 process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
@@ -22,7 +22,7 @@ export const Hero = () => {
           <div className="w-full"></div>{" "}
           {/* Untuk pindah ke baris berikutnya */}
           <span className="pl-[140px]">Savvy Businesses</span>
-          <div className="absolute -left-[27.87px] -bottom-[31.29px] w-[182.92px] h-[186.44px]">
+          <div className="absolute shrink-0 -left-[27.87px] -bottom-[31.29px] w-[182.92px] h-[186.44px]">
             <Image
               src={`${
                 process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"

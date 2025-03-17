@@ -54,44 +54,46 @@ export const Team = () => {
           >
             <img src={member.img} alt="team" />
             <div className="flex flex-col">
-              <h6>{member.name}</h6>
-              <p>{member.role}</p>
+              <p className="team-name">{member.name}</p>
+              <p className="team-role">{member.role}</p>
             </div>
           </button>
         ))}
       </div>
 
       {/* Testimonial Section with Smooth Transition */}
-      <div className="relative ml-[76px] w-[705px]">
+      <div className="relative ml-[76px] flex-none w-full max-w-[705px]">
         {teamMembers.map((member) => (
           <div
             key={member.id}
-            className={`absolute inset-0 transition-opacity duration-300 ease-in-out transform ${
+            className={`absolute h-auto inset-0 transition-opacity duration-300 ease-in-out transform ${
               activeTab === member.id
                 ? "opacity-100 scale-100"
                 : "opacity-0 scale-95 pointer-events-none"
             }`}
           >
-            <p className="text-[36px] font-bold leading-[52px] tracking-[-1px]">
-              {member.testimonial}
-              <span className="text-foreground/40">
-                enabling us to implement informed.
-              </span>
-            </p>
-            <img
-              src={`${
-                process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
-              }icons/quote-filled.svg`}
-              alt="icon"
-              className="absolute bottom-[18.52px] right-[16.18px]"
-            />
-            <img
-              src={`${
-                process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
-              }icons/quote-filled.svg`}
-              alt="icon"
-              className="absolute top-0 -right-40 rotate-180"
-            />
+            <div className="relative">
+              <p className="text-[36px] font-bold leading-[52px] tracking-[-1px]">
+                {member.testimonial}
+                <span className="text-foreground/40">
+                  enabling us to implement informed.
+                </span>
+              </p>
+              <img
+                src={`${
+                  process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
+                }icons/quote-filled.svg`}
+                alt="icon"
+                className="absolute bottom-[18.52px] right-[16.18px]"
+              />
+              <img
+                src={`${
+                  process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
+                }icons/quote-filled.svg`}
+                alt="icon"
+                className="absolute top-0 -right-40 rotate-180"
+              />
+            </div>
           </div>
         ))}
       </div>

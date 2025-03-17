@@ -64,7 +64,7 @@ export const Footer = () => {
   return (
     <footer className="flex flex-col gap-14 pl-[220px] py-24 bg-foreground/5">
       <div className="flex gap-[52px]">
-        <div className="flex flex-col gap-[26px] w-[352px]">
+        <div className="flex flex-col gap-[26px] max-w-[352px]">
           <Logo />
           <p className="text-lg leading-[26px] tracking-normal w-full font-normal text-foreground/60">
             XB gives you the blocks <br /> needed to create a truly professional

@@ -26,13 +26,13 @@ export const ServiceSection = () => {
               FramerBite delivers the essential components to build a polished
               and professional website for your SaaS business.
             </p>
-            <div className="mx-auto rounded-t-xl w-[316px] h-[149px]">
+            <div className="mx-auto rounded-t-xl shrink-0 max-w-[316px] h-[149px]">
               <img
                 src={`${
                   process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
                 }assets/entertainment.png`}
                 alt="image"
-                className=""
+                className="w-full"
               />
             </div>
           </CardServiceContainer>
@@ -55,30 +55,30 @@ export const ServiceSection = () => {
               recognized by numerous desktop publishing packages and web page
               editors.
             </p>
-            <div className="flex justify-center gap-8">
-              <div className="mx-auto rounded-t-xl w-[313px] h-[154px]">
+            <div className="flex w-full justify-center gap-8">
+              <div className="mx-auto rounded-t-xl shrink-0 w-[313px] h-[154px]">
                 <img
                   src={`${
                     process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
                   }assets/chart1.png`}
                   alt="image"
-                  className=""
+                  className="w-full"
                 />
               </div>
-              <div className="mx-auto rounded-t-xl w-[163px] h-[154px]">
+              <div className="mx-auto rounded-t-xl shrink-0 w-[163px] h-[154px]">
                 <img
                   src={`${
                     process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
                   }assets/chart2.png`}
                   alt="image"
-                  className=""
+                  className="w-full"
                 />
               </div>
             </div>
           </CardServiceContainer>
         </div>
         <CardServiceContainer className="flex-row w-full px-[46px] pb-8">
-          <div className="flex flex-col w-[408px] h-[374px]">
+          <div className="flex flex-col w-full max-w-[408px] h-[374px]">
             <div className="rounded-full w-fit bg-secondary p-3 mb-10">
               <img
                 src={`${
@@ -98,7 +98,7 @@ export const ServiceSection = () => {
             </p>
           </div>
           <div className="flex flex-1 items-end justify-end">
-            <div className="rounded-xl w-[462px] h-[278px]">
+            <div className="rounded-xl shrink-0 max-w-[462px] h-[278px]">
               <img
                 src={`${
                   process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"

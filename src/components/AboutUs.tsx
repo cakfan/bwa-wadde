@@ -7,7 +7,7 @@ export const AboutUs = () => {
   return (
     <section className="flex w-full flex-col gap-16 pl-[220px] py-12 mb-[50px]">
       <div className="flex w-full gap-16 justify-start items-center">
-        <div className="flex flex-col justify-start w-[460px]">
+        <div className="flex flex-col justify-start flex-none max-w-[460px]">
           <span className="section mb-3">About Us</span>
           <h2 className="capitalize">Embark on Your Digital </h2>
           <p className="section mt-9 text-2xl leading-10 mb-[52px]">
@@ -19,7 +19,7 @@ export const AboutUs = () => {
             More About Us
           </Link>
         </div>
-        <div className="flex items-center pl-1">
+        <div className="flex shrink-0 items-center pl-1">
           <img
             src={`${
               process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"

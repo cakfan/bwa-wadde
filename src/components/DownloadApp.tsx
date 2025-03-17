@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export const DownloadApp = () => {
   return (
-    <section className="flex justify-center gap-16 bg-foreground/5 pl-[220px] mt-[54px] pt-[95px]">
-      <div className="mt-20 pt-0.5 h-[494px] w-[472px]">
+    <section className="flex w-full justify-center gap-16 bg-foreground/5 pl-[220px] mt-[54px] pt-[95px]">
+      <div className="mt-20 pt-0.5 shrink-0 h-[494px] max-w-[472px]">
         <img
           src={`${
             process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
@@ -15,9 +15,9 @@ export const DownloadApp = () => {
         />
       </div>
       <div className="flex flex-col flex-1 ml-1 gap-8 pb-12">
-        <div className="flex flex-col gap-8 w-[528px]">
+        <div className="flex flex-col gap-8 max-w-[528px]">
           <h2 className="line-clamp-2 capitalize">Download Our Mobile App</h2>
-          <p className="section leading-10 text-2xl w-[460px]">
+          <p className="section leading-10 text-2xl max-w-[460px]">
             X provides you with the essential toolkit to develop a genuinely
             polished website
           </p>

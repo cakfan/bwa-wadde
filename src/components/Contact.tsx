@@ -5,11 +5,11 @@ export const Contact = () => {
         <h2 className="text-center line-clamp-1 capitalize">
           Accelerate Your Business Growth
         </h2>
-        <p className="section mx-auto text-center w-[618px]">
+        <p className="section mx-auto text-center max-w-[618px]">
           FramerBite supplies the key components for assembling a top-tier
           website tailored to your SaaS needs.
         </p>
-        <form className="group transition-all duration-300 mt-3.5 mx-auto bg-foreground/5 flex items-center justify-between w-[478px] rounded-full border border-[#BFBFC5] focus-within:ring focus-within:ring-foreground hover:ring hover:ring-foreground">
+        <form className="group transition-all duration-300 mt-3.5 mx-auto bg-foreground/5 flex items-center justify-between max-w-[478px] rounded-full border border-[#BFBFC5] focus-within:ring focus-within:ring-foreground hover:ring hover:ring-foreground">
           <input
             type="email"
             placeholder="Enter your email"

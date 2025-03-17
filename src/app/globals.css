@@ -23,7 +23,8 @@
     @apply bg-background text-foreground font-sans max-w-desktop;
     font-family: "Space Grotesk", sans-serif;
   }
-  section {
+  section,
+  footer {
     @apply w-full;
   }
   h2 {
@@ -72,25 +73,25 @@
     @apply w-6 h-6;
   }
   .circle-person {
-    @apply rounded-full h-[60px] w-[60px];
+    @apply rounded-full h-[60px] w-[60px] shrink-0;
   }
   .companies-logo {
     @apply flex items-center justify-center w-fit h-8;
   }
   .team-container {
-    @apply w-[312px] h-auto flex flex-col gap-4;
+    @apply max-w-[312px] w-full flex-none h-auto flex flex-col gap-4;
   }
   .team-people {
-    @apply flex items-center justify-start gap-4 rounded-full pl-3.5 py-3 transition-all ease-in duration-300;
+    @apply flex w-full items-center justify-start gap-4 rounded-full pl-3.5 py-3 transition-all ease-in duration-300;
   }
   .team-people img {
     @apply w-16 h-16 rounded-full;
   }
-  .team-people h6 {
-    @apply text-xl leading-8 line-clamp-1 text-start -tracking-[0.6px] font-medium;
+  .team-people .team-name {
+    @apply text-xl leading-8  text-start -tracking-[0.6px] font-medium;
   }
-  .team-people p {
-    @apply text-lg leading-[26px] text-start line-clamp-1 text-foreground/60;
+  .team-people .team-role {
+    @apply text-lg leading-[26px] text-start  text-foreground/60;
   }
   .team-people:hover,
   .team-people.selected {
@@ -103,10 +104,10 @@
     @apply flex flex-col gap-2 w-auto;
   }
   .statistics .count {
-    @apply text-7xl text-center font-bold leading-[88px] line-clamp-1 tracking-tight text-[#1560F2];
+    @apply text-7xl text-center font-bold leading-[88px] tracking-tight text-[#1560F2];
   }
   .statistics .description {
-    @apply text-foreground/60 line-clamp-1 leading-[26px] text-lg;
+    @apply text-foreground/60 leading-[26px] text-lg;
   }
   .statistics img {
     @apply w-8 h-8;
