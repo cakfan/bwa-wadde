@@ -4,10 +4,12 @@ import { NavHeader } from "./NavHeader";
 
 export const Header = () => {
   return (
-    <header className="relative w-full h-[816px] overflow-hidden">
-      <BackgroundHeader />
-      <NavHeader />
-      <Hero />
+    <header className="mx-auto">
+      <div className="relative w-full max-w-[1440px] mx-auto h-[816px] overflow-hidden">
+        <BackgroundHeader />
+        <NavHeader />
+        <Hero />
+      </div>
     </header>
   );
 };
