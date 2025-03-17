@@ -13,7 +13,7 @@ export const Contact = () => {
           <input
             type="email"
             placeholder="Enter your email"
-            className="px-7 h-[26px] placeholder-foreground/40 leading-[16px] text-lg focus:outline-none"
+            className="px-7 flex-1 h-[26px] placeholder-foreground/40 leading-[16px] text-lg focus:outline-none"
           />
           <button type="submit" className="btn primary sm mr-1 my-[3px]">
             Email me
