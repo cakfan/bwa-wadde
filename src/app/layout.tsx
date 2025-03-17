@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
-// import { Space_Grotesk } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { Footer } from "@/components/Footer";
+import { cn } from "@/libs/utils";
 
-// const spaceGrotesk = Space_Grotesk({
-//   variable: "--font-space-grotesk",
-//   subsets: ["latin"],
-// });
+const spaceGrotesk = Space_Grotesk({
+  variable: "--font-space-grotesk",
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Wadde - Business Dark Mode",
@@ -20,7 +21,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased mx-auto`}>
+      <body
+        className={cn(
+          "antialiased mx-auto bg-background text-foreground",
+          spaceGrotesk.className
+        )}
+      >
         {children}
         <Footer />
       </body>

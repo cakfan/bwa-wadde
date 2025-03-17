@@ -57,7 +57,7 @@ const NavItem = ({ href, title, sub }: (typeof navItems)[0]) => {
 
 export const NavHeader = () => {
   return (
-    <nav className="h-navbar px-8 z-50 flex items-center justify-between">
+    <nav className="h-[92px] px-8 z-50 flex items-center justify-between">
       <Logo />
       <ul className="flex gap-10">
         {navItems.map((item, index) => (

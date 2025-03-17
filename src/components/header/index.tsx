@@ -4,9 +4,9 @@ import { NavHeader } from "./NavHeader";
 
 export const Header = () => {
   return (
-    <header className="mx-auto">
-      <div className="relative w-full max-w-[1440px] mx-auto h-[816px] overflow-hidden">
-        <BackgroundHeader />
+    <header className="relative mx-auto overflow-hidden">
+      <BackgroundHeader />
+      <div className="w-full max-w-[1440px] mx-auto h-[816px]">
         <NavHeader />
         <Hero />
       </div>
