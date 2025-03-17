@@ -42,8 +42,8 @@ export const Team = () => {
   const [activeTab, setActiveTab] = useState("team1");
 
   return (
-    <section className="mx-auto w-full mt-16">
-      <div className="flex w-full pl-[220px] max-w-[1440px] overflow-hidden py-16 mt-[34px]">
+    <section className="mx-auto w-full mt-16 max-w-[1440px]">
+      <div className="flex relative w-full pl-[220px] overflow-hidden py-16 mt-[34px]">
         {/* Team Members (Tabs) */}
         <div className="w-[312px] flex-none h-auto flex flex-col gap-4">
           {teamMembers.map((member) => (
@@ -77,11 +77,12 @@ export const Team = () => {
           {teamMembers.map((member) => (
             <div
               key={member.id}
-              className={`absolute h-auto inset-0 transition-opacity duration-300 ease-in-out transform ${
+              className={cn(
+                "absolute h-auto inset-0 transition-opacity duration-300 ease-in-out transform",
                 activeTab === member.id
                   ? "opacity-100 scale-100"
                   : "opacity-0 scale-95 pointer-events-none"
-              }`}
+              )}
             >
               <div className="relative w-full">
                 <p className="text-[36px] font-bold leading-[52px] tracking-[-1px]">
@@ -97,17 +98,17 @@ export const Team = () => {
                   alt="icon"
                   className="absolute bottom-[18.52px] right-[16.18px]"
                 />
-                <img
-                  src={`${
-                    process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
-                  }icons/quote-filled.svg`}
-                  alt="icon"
-                  className="absolute top-0 -right-40 rotate-180"
-                />
               </div>
             </div>
           ))}
         </div>
+        <img
+          src={`${
+            process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
+          }icons/quote-filled.svg`}
+          alt="icon"
+          className="absolute top-16 -right-8 rotate-180"
+        />
       </div>
     </section>
   );

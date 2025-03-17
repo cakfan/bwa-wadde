@@ -32,8 +32,8 @@ const statistics = [
 
 export const Statistics = () => {
   return (
-    <section className="mx-auto mt-16">
-      <div className="py-12 mt-[15px] w-full pl-[220px] max-w-[1440px]">
+    <section className="mx-auto mt-16 max-w-[1440px]">
+      <div className="py-12 mt-[15px] w-full pl-[220px]">
         <div className="statistics-container">
           {statistics.map(({ count, icon, description }, index) => (
             <div key={index} className="statistics">

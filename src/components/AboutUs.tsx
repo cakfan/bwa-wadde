@@ -3,8 +3,8 @@ import Link from "next/link";
 /* eslint-disable @next/next/no-img-element */
 export const AboutUs = () => {
   return (
-    <section className="mx-auto w-full">
-      <div className="flex max-w-[1440px] flex-col gap-16 pl-[220px] py-12 mb-[50px]">
+    <section className="mx-auto max-w-[1440px]">
+      <div className="flex flex-col gap-16 pl-[220px] py-12 mb-[50px]">
         <div className="flex w-full gap-16 justify-start items-center">
           <div className="flex flex-col justify-start flex-1 shrink-0 max-w-[460px]">
             <span className="section mb-3">About Us</span>

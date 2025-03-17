@@ -22,8 +22,8 @@ const companiesList = [
 
 export const Companies = () => {
   return (
-    <section className="flex flex-col gap-[18px] items-center mt-[59px] pb-[122px]">
-      <p className="max-w-[682px] leading-[52px] font-bold text-center text-4xl">
+    <section className="flex flex-col gap-[18px] items-center mt-[59px] px-[138.55px] pb-[122px]">
+      <p className="w-full max-w-[682px] leading-[52px] font-bold text-center text-4xl">
         Join over 55,000 businesses that have achieved their goals.
       </p>
       <div className="flex gap-12 bg-foreground rounded-full px-[82px] py-[50px]">

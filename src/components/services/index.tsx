@@ -3,8 +3,8 @@ import { CardServiceContainer } from "./Card";
 
 export const ServiceSection = () => {
   return (
-    <section className="mx-auto">
-      <div className="flex flex-col gap-[68px] max-w-[1440px] px-[209px] pt-[72px] pb-3 mb-[68px]">
+    <section className="mx-auto px-[209px] max-w-[1440px]">
+      <div className="flex flex-col gap-[68px] max-w-[1021px] pt-[72px] pb-3 mb-[68px]">
         <h2 className="text-[56px] font-bold leading-[62px] capitalize">
           We&apos;re here to assist you in creating, managing
         </h2>
