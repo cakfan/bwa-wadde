@@ -45,7 +45,7 @@ const NavItem = ({ href, title, sub }: (typeof navItems)[0]) => {
       {sub ? (
         <button
           type="button"
-          className="flex items-center gap-2.5 leading-[26px] text-[18px] font-medium-link"
+          className="flex items-center gap-2.5 leading-[26px] text-[18px] cursor-pointer font-medium-link"
         >
           {Content}
         </button>
