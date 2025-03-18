@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const BackgroundHeader = () => {
   return (
-    <div className="bg-background absolute top-0 left-[50vw] -z-10 h-[900.11] w-[1414px]">
+    <div className="bg-background absolute top-0 left-[48vw] -z-10 h-[900.11] w-[1414px]">
       <Image
         src={`${
           process.env.NODE_ENV === "production" ? "/bwa-wadde/" : "/"
