@@ -2,7 +2,7 @@
 
 export const ServiceSection = () => {
   return (
-    <section className="mt-[72px] mb-[12px] flex flex-col items-center justify-center px-[209px]">
+    <section className="mb-[12px] flex flex-col items-center justify-center px-[209px]">
       <div className="mb-[68px] flex max-w-[1021px] flex-col gap-[68px] pt-[72px] pb-3">
         <h2 className="text-[56px] leading-[62px] font-bold tracking-tight capitalize">
           We&apos;re here to assist you in creating, managing

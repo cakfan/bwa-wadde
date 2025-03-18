@@ -6,8 +6,8 @@ export const Header = () => {
   return (
     <header className="relative mx-auto overflow-hidden">
       <BackgroundHeader />
-      <div className="mx-auto h-[816px] w-full max-w-[1440px]">
-        <NavHeader />
+      <NavHeader />
+      <div className="mx-auto w-full max-w-[1440px] pb-[139px]">
         <Hero />
       </div>
     </header>
